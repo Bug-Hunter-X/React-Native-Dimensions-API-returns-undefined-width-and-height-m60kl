@@ -1,0 +1,3 @@
+# React Native Dimensions API Undefined Width and Height
+
+This repository demonstrates a common issue in React Native where the `Dimensions` API returns `undefined` width and height values on the initial render of a component. This can lead to layout problems and unexpected behavior.  The solution demonstrates a proper way to handle this scenario by using `useEffect` to ensure the component waits for dimensions before rendering.
